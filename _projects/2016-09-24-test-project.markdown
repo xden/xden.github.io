@@ -1,7 +1,6 @@
 ---
 title: "ZINEFUN"
 ---
-
 ![front page][front-page]
 
 ZINEFUN([zinefun.com][zinefun]) is a web app for promoting Ottawa's local restaurants.
