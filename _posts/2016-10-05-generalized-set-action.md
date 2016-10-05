@@ -7,25 +7,25 @@ When I was writing a reducer for a user profile form several days ago. The code 
 ```javascript
 switch (action.type) {
   case 'SET_FIRST_NAME':
-    return [
+    return {
       ...state,
       firstName: action.value,
-    ]
+    }
   case 'SET_LAST_NAME':
-    return [
+    return {
       ...state,
       lastName: action.value,
-    ]
+    }
   case 'SET_EMAIL':
-    return [
+    return {
       ...state,
       email: action.value,
-    ]
+    }
   case 'SET_PHONE_NUMBER':
-    return [
+    return {
       ...state,
       phoneNumber: action.value,
-    ]
+    }
     // ...
 }
 ```
@@ -61,11 +61,11 @@ console.log(object.x[0].y.z);
 Now I can do the same thing with my new action.
 
 ```javascript
-store.dispatch{
+store.dispatch({
   type: 'SET',
   path: 'firstName', // or 'lastName', 'email', 'address.province'
   value,
-}
+})
 ```
 
 It's worth to point out that other Lodash functions can also be exploited to combine with redux reducer.
