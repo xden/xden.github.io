@@ -2,11 +2,7 @@
 title: "Generalized Set Action for Redux Reducer"
 ---
 
-<<<<<<< HEAD
 When I was writing a reducer for a user profile form several days ago. The code I wrote was:
-=======
-When I was writing a reducer for user profile form several days ago. The code I wrote was:
->>>>>>> b90d9b9e40550e552eb54445a551c2556fad3d95
 
 ```javascript
 switch (action.type) {
@@ -34,15 +30,9 @@ switch (action.type) {
 }
 ```
 
-<<<<<<< HEAD
 I realized some code in the switch block is repeating itself.
 
 So I come up with another method to reduce the repeated code. This method require Lodash or a similar equivalent library.
-=======
-I realized the code in the switch block is repeating itself.
-
-So I come up with a another method to reduce the repeated code. The method require Lodash or a similar equivalent library.
->>>>>>> b90d9b9e40550e552eb54445a551c2556fad3d95
 
 ```javascript
 switch (action.type) {
