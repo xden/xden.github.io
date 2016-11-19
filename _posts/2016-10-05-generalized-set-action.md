@@ -1,8 +1,9 @@
 ---
-title: "Generalized Set Action for Redux Reducer"
+title: Generalized Set Action for Redux Reducer
+published: true
 ---
 
-When I was writing a reducer for a user profile form several days ago. The code I wrote was:
+When I was writing a redux reducer for a user profile form. The code I wrote was:
 
 ```javascript
 switch (action.type) {
