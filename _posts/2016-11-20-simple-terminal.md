@@ -1,6 +1,5 @@
 ---
 title: Switching to Simple Terminal from Urxvt
-date: {}
 published: true
 ---
 ---
