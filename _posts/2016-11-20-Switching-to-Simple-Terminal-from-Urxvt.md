@@ -1,5 +1,6 @@
 ---
 published: true
+title: test
 ---
 ![urxvt-statusline]({{site.baseurl}}/assets/urxvt-statusline.png)
 
