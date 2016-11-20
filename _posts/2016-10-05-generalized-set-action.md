@@ -1,6 +1,6 @@
 ---
 title: Generalized Set Action for Redux Reducer
-published: true
+published: false
 ---
 
 ![redux-reducer]({{site.baseurl}}/assets/redux-reducer.svg)
