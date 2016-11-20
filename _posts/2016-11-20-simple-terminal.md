@@ -14,4 +14,6 @@ I have been using Urxvt happily for a long time until vim-airline add a new symb
 
 > The popular alternative, rxvt has only 32K lines of code. This is just too much for something as simple as a terminal emulator; it’s yet another example of code complexity.
 
+> 
+
 > Terminal emulation doesn’t need to be so complex.
