@@ -1,6 +1,6 @@
 ---
 title: Generalized Set Action for Redux Reducer
-published: true
+date: 2016-10-05 00:00:00 Z
 ---
 
 ![redux-reducer]({{site.baseurl}}/assets/redux-reducer.svg)

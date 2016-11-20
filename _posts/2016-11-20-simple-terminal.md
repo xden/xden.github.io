@@ -1,7 +1,8 @@
 ---
-published: true
 title: Switching to Simple Terminal from Urxvt
+date: 2016-11-20 00:00:00 Z
 ---
+
 ![urxvt-statusline]({{site.baseurl}}/assets/urxvt-statusline.png "vim statusline in urxvt")
 
 ![urxvt-statusline]({{site.baseurl}}/assets/st-statusline.png "vim statusline in simple terminal")
