@@ -1,0 +1,4 @@
+{
+  "ignoreFiles": 'css/main.scss',
+  "extends": "stylelint-config-standard"
+}
