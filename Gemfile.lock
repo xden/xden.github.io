@@ -136,7 +136,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-github-metadata
   jekyll-seo-tag
   jekyll-sitemap
 

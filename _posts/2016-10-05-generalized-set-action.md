@@ -1,7 +1,8 @@
 ---
 title: Generalized Set Action for Redux Reducer
-published: true
 ---
+
+Redux is a popular framework for writing React app. But it contains a lot of boilerplates, especially when it comes to reducer. This issue can be mitigated by using Lodash. This article shows how to use Lodash to write concise and flexible reducer.
 
 When I was writing a redux reducer for a user profile form. The code I wrote was:
 
