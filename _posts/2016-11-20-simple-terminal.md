@@ -10,5 +10,7 @@ I have been using Urxvt happily for a long time until vim-airline add a new symb
 
 <!-- more -->
 
+## st philosophy
+
 ### st philosophy
 
