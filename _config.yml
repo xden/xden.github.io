@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xden.github.io" # the base hostname & protocol for your site
 # twitter_username: xdeng
 github_username: d8660091
+excerpt_separator: <!-- more -->
 
 # Build settings
 markdown: kramdown

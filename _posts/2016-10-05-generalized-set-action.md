@@ -2,9 +2,12 @@
 title: Generalized Set Action for Redux Reducer
 published: true
 ---
+
 ![redux-reducer]({{site.baseurl}}/assets/redux-reducer.svg)
 
 Redux is a popular framework for writing React app. But it contains a lot of boilerplates, especially when it comes to reducer. This issue can be mitigated by using Lodash. This article shows how to use Lodash to write concise and flexible reducer.
+
+<!-- more -->
 
 When I was writing a redux reducer for a user profile form. The code I wrote was:
 
