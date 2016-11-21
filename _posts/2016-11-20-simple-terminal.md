@@ -7,7 +7,7 @@ published: true
 
 ![urxvt-statusline]({{site.baseurl}}/assets/st-statusline.png "vim statusline in simple terminal")
 
-I have been using Urxvt happily for a long time until vim-airline add a new symbol a few months ago. The new symbol is '☰'. Urxvt can only render this symbol if the first font in its font-list contains this symbol, although it claims to have fallback capability. Except from this issue, it also cannot render the other powerline symbols perfectly(the black line besides the '' symbol). So simple terminal(st) comes as a better alternative without the aforementioned rendering issues.
+I have been using Urxvt happily for a long time until vim-airline add a new symbol a few months ago. The new symbol is '☰'. Urxvt can only render this symbol if the first font in its font-list contains this symbol, although it claims to have fallback capability. Except from this issue, it also cannot render the other powerline symbols perfectly(the black line besides the triangle symbol). So simple terminal(st) comes as a better alternative without the aforementioned rendering issues.
 
 <!-- more -->
 
