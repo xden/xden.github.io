@@ -1,10 +1,9 @@
 title: Xu Deng
-author: Xu Deng
-# email: d8660091@gmail.com
 description:
   Xu Deng's blog
 baseurl: ""
 url: "http://xden.github.io"
+author: Xu Deng
 # twitter_username: xdeng
 github_username: d8660091
 excerpt_separator: <!-- more -->
