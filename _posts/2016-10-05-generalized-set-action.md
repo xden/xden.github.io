@@ -1,6 +1,5 @@
 ---
 title: Generalized Set Action for Redux Reducer
-date: {}
 published: true
 ---
 
