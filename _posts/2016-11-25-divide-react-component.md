@@ -2,9 +2,11 @@
 published: true
 title: Dividing React Component
 ---
-old code
+Dividing a react component for code reusability.
 
 <!-- more -->
+
+old code
 
 ```javascript 
 import React from 'react';
