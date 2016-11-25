@@ -1,5 +1,6 @@
 ---
 published: false
+title: Functionally Composed React Component
 ---
 old code
 ```javascript 
