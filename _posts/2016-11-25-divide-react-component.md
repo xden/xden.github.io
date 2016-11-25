@@ -2,11 +2,12 @@
 published: true
 title: Dividing React Component
 ---
-Dividing a react component for code reusability.
+Writing a program is like drawing. Both starts from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component.
 
 <!-- more -->
 
-old code
+A react component writing with class syntax.
+
 
 ```javascript 
 import React from 'react';
