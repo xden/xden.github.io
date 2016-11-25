@@ -3,6 +3,9 @@ published: true
 title: Dividing React Component
 ---
 old code
+
+<!-- more -->
+
 ```javascript 
 import React from 'react';
 import Paper from 'material-ui/Paper';
@@ -80,6 +83,7 @@ export default class Element extends React.Component {
 ```
 
 New code with recompose
+
 ```javascript
 import React from 'react';
 import Paper from 'material-ui/Paper';
