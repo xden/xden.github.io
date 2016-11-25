@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Functionally Composed React Component
 ---
 old code
