@@ -2,12 +2,11 @@
 published: true
 title: Dividing React Component
 ---
-Writing a program is like drawing. Both start from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component.
+Writing a program is like drawing. Both start from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component. A react component is usally represented by a class, but it can also be composed by a few functions. The same component written with class and composed with functions are given bellow. 
 
 <!-- more -->
 
-A react component writing with class syntax.
-
+### Example component in class.
 
 ```javascript 
 import React from 'react';
@@ -69,15 +68,12 @@ export default class Element extends React.Component {
             opacity: this.state.editButtonShown ? 1 : 0,
           }}
         />
-        {
-          removeHandler ?
-            <CloseButton
-              style={{
-                opacity: this.state.closeButtonShown ? 1 : 0,
-              }}
-              onTouchTap={removeHandler}
-            /> : null
-        }
+         <CloseButton
+            style={{
+              opacity: this.state.closeButtonShown ? 1 : 0,
+            }}
+            onTouchTap={removeHandler}
+       	  />
         {children}
       </Paper>
     );
@@ -85,7 +81,7 @@ export default class Element extends React.Component {
 }
 ```
 
-New code with recompose
+### Example component composed by functions.
 
 ```javascript
 import React from 'react';
@@ -158,15 +154,12 @@ export default enhance(({
         opacity: editButtonShown ? 1 : 0,
       }}
     />
-    {
-      removeHandler ?
-        <CloseButton
-          style={{
-            opacity: closeButtonShown ? 1 : 0,
-          }}
-          onTouchTap={removeHandler}
-        /> : null
-    }
+      <CloseButton
+        style={{
+          opacity: this.state.closeButtonShown ? 1 : 0,
+        }}
+        onTouchTap={removeHandler}
+      />
     {children}
   </Paper>
 ));
