@@ -6,7 +6,7 @@ Writing a program is like drawing. Both start from nothing to a very complex art
 
 <!-- more -->
 
-The same React component in class and functional form are given bellow. The class form uses ES6's class suger syntax, while the functional form uses the Recompose package. The comparison of these two forms shows that the functional form has better clarity than its opponent.  
+The same React component in class and functional form are given bellow. The class form uses ES6's class suger syntax, while the functional form uses the Recompose package. 
 
 ### Example component in class.
 
@@ -32,7 +32,6 @@ export default class Element extends React.Component {
         editButtonShown: true,
       });
     }
-    if (this.props.onMouseEnter) this.props.onMouseEnter(event);
   };
 
   handleMouseLeave = (event) => {
@@ -40,7 +39,6 @@ export default class Element extends React.Component {
       closeButtonShown: false,
       editButtonShown: false,
     });
-    if (this.props.onMouseLeave) this.props.onMouseLeave(event);
   };
 
   render() {
@@ -165,5 +163,10 @@ export default enhance(({
     {children}
   </Paper>
 ));
-
 ```
+
+### Comparison
+
+1.
+
+The comparison of these two forms shows that the functional form has better clarity than its opponent.  
