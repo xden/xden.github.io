@@ -2,7 +2,7 @@
 published: true
 title: Dividing React Component
 ---
-Writing a program is like drawing. Both start from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component. A react component is usally represented by a class, but it can also be composed by a few functions. The same component written with class and composed with functions are given bellow. 
+Writing a program is like drawing. Both start from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component. A react component is usally represented by a class, but it can also be composed by a few functions. The same component in class and functional form are given bellow, which is enough to show which form is better.
 
 <!-- more -->
 
