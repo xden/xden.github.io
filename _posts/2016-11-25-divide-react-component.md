@@ -167,6 +167,4 @@ export default enhance(({
 
 ### Comparison
 
-1.
-
 The comparison of these two forms shows that the functional form has better clarity than its opponent.  
