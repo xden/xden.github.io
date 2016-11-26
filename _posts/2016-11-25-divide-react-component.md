@@ -4,9 +4,9 @@ title: Dividing React Component
 ---
 Writing a program is like drawing. Both start from nothing to a very complex artifact. The reason human being can build those complex artifacts is that a complex artifact can be divided to small pieces. The same goes to writing react component. A react component is usally represented by a class whose structure is not easy to see. An alternative is to compose the component by some utility functions.
 
-The same React component in class and functional form are given bellow. The class form uses ES6's class suger syntax, while the functional form uses the Recompose package. The comparison of these two forms shows that the functional form has better clarity than its opponent.  
-
 <!-- more -->
+
+The same React component in class and functional form are given bellow. The class form uses ES6's class suger syntax, while the functional form uses the Recompose package. The comparison of these two forms shows that the functional form has better clarity than its opponent.  
 
 ### Example component in class.
 
