@@ -20,7 +20,7 @@ St is a program developed by the philosophy of keeping things simple, minimal an
 
 But to keep the source minimal, st has to be recompiled when user want some customization, even just for changing the ASCI color. Its source code includes a file named _config.h_, all custom configuration can be done in this file. I was surprised by this complexity at first, but later enjoying this approach after using it for a while.
 
-This [PKGBUILD](https://github.com/d8660091/st-custom/blob/master/PKGBUILD) file along with the [config.h](https://github.com/d8660091/st-custom/blob/master/config.h) can help pacman user to automate the compile and install procedure. The command for compiling and installation after customization can be as simple as:
+This [PKGBUILD](https://github.com/d8660091/st-custom/blob/master/PKGBUILD) file along with the [config.h](https://github.com/d8660091/st-custom/blob/master/config.h) can help pacman user to automate the compile and install procedure. The command for compiling the source and installation after customizing _config.h_ can be as simple as:
 
 ```bash
 makepkg -fi
