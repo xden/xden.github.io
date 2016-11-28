@@ -167,4 +167,4 @@ export default enhance(({
 
 ### Comparison
 
-The comparison of these two forms shows that the functional form has better clarity than its opponent.
+It's shown from above that the compose form divides the class form into two parts. The first part is the enhance function which handles the logic of the component. The second part is the argument of enhance function, which handles the component's appearance. And the first part is furthure divided into several smaller parts. This detailed division makes the code clearer and more reusable than the original class notation.
