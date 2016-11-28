@@ -167,4 +167,4 @@ export default enhance(({
 
 ### Comparison
 
-It's shown from above that the compose form divides the class form into two parts. The first part is the enhance function which handles the logic of the component. The second part is the argument of enhance function, which handles the component's appearance. And the first part is furthure divided into several smaller parts. This detailed division makes the code clearer and more reusable than the original class notation.
+It's shown above that the compose form divides the component into two main parts. The first part is the enhance function which handles the logic of the component. The second part is the argument of enhance function, which handles the component's appearance. And the first part is furthure divided into several smaller parts. This division makes the code more readable and reusable than the original class notation.
