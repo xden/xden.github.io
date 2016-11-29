@@ -29,7 +29,7 @@ makepkg -fi
 Similar methods can be applied for users with other package manager.
 
 ## Choosing the 16 ASCI colors
-St's default colors looks pretty bad with a dark background. Since st is a minimalized program to not contain a color selector, setting the color for st can be very painful. Using a tool like [terminal.sexy](https://terminal.sexy/) might be a good idea. The default color pallete looks pretty good, but for someone prefer iTerm's color pallete, here is the colors exported from iTerm2.
+St's default colors looks pretty bad with a dark background. Since st is a minimalized program to not contain a color selector, setting the color for st can be very painful. Using a tool like [terminal.sexy](https://terminal.sexy/) might be a good idea. Terminal.sexy's default color pallete looks pretty good, but for someone prefer iTerm's color pallete, here is the colors exported from iTerm2.
 
 ```
 /* Terminal colors (16 first used in escape sequence) */
