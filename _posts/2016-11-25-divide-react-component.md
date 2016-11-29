@@ -6,7 +6,7 @@ Writing a program is like drawing. Both start from nothing to a complex artifact
 
 <!-- more -->
 
-In this article, it's showed how to divide a React component with a practical example. First comes the class form using ES6's class syntax, then tye functional form based on Recompose. And we will see how 
+In this article, an example is given to show how to divide a React component. It first comes the class form using ES6's class syntax, then the functional form based on Recompose. 
 
 ### Example component in class.
 
