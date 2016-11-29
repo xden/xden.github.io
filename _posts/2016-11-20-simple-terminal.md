@@ -58,5 +58,5 @@ static const char *colorname[] = {
 
 ## Other st issues
 
-- No scroll support, but can be mitigated by using tmux.
+- ~~No scroll support~~ (Edit: Thanks for Frank's [correcting](https://github.com/d8660091/st-custom/issues/1) there is [patch](http://st.suckless.org/patches/scrollback) to add this feature), but can be mitigated by using tmux.
 - Copy and paste with clipboard is not enabled by default, but can be set in config.h.
