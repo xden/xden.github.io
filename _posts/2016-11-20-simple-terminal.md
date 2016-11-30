@@ -64,7 +64,7 @@ let &t_8b = "\ESC[48;2;%lu;%lu;%lum"
 set termguicolors
 ```
 
-Notice that _\ESC_ should be typed by ctrl-v + esc.
+Notice that \ESC is a special character, it can be typed by ctrl-v + esc in Vim.
 
 ## Other st issues
 
