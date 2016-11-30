@@ -11,7 +11,7 @@ I have been using Urxvt happily for a long time until vim-airline added a new sy
 
 <!-- more -->
 
-## st philosophy
+## St philosophy
 
 St is a program developed by the philosophy of keeping things simple, minimal and usable. Here is a quote from [st's official website](http://st.suckless.org/).
 
@@ -56,8 +56,15 @@ static const char *colorname[] = {
 };
 ```
 
-## Choosing the 16 ASCI colors
+## Enable True Color in Vim
 
+```
+let &t_8f = "\ESC[38;2;%lu;%lu;%lum"
+let &t_8b = "\ESC[48;2;%lu;%lu;%lum"
+set termguicolors
+```
+
+Notice that _\ESC_ should be typed by ctrl-v + esc.
 
 ## Other st issues
 
