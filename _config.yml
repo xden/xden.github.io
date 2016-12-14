@@ -6,6 +6,8 @@ url: "http://xden.github.io"
 author: Xu Deng
 github_username: d8660091
 excerpt_separator: <!-- more -->
+disqus:
+  shortname: "xden"
 
 # Build settings
 markdown: kramdown

@@ -6,11 +6,11 @@ Writing a program is like drawing. Both start from nothing to a complex artifact
 
 <!-- more -->
 
-In this article, an example is given to show how to divide a React component. It first comes the class form using ES6's class syntax, then the functional form based on Recompose. 
+In this article, an example is given to show how to divide a React component. It first comes the class form using ES6's class syntax, then the functional form based on Recompose.
 
 ### Example component in class.
 
-```javascript 
+```javascript
 import React from 'react';
 import Paper from 'material-ui/Paper';
 
@@ -73,7 +73,7 @@ export default class Element extends React.Component {
               opacity: this.state.closeButtonShown ? 1 : 0,
             }}
             onTouchTap={removeHandler}
-       	  />
+         />
         {children}
       </Paper>
     );
