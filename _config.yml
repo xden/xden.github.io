@@ -7,7 +7,7 @@ author: Xu Deng
 github_username: d8660091
 excerpt_separator: <!-- more -->
 disqus:
-  shortname: "xden"
+#  shortname: "xden"
 
 # Build settings
 markdown: kramdown
