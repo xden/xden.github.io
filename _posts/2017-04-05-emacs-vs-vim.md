@@ -1,0 +1,21 @@
+---
+published: true
+---
+
+Emacs and Vim are two of the best editors in the world, both with a long history. It's very hard to compare them because:
+
+> Almost every programming language is overrated by its practitioners.
+-- Larry Wall
+
+<!-- more -->
+
+I started to use Vim about 4 years ago, it greatly improves my productivity with the simple idea: throw the mouse. During the time, I inevitably heard many good things about Emacs. So I decided to give it a try. 
+
+It's been about two months since I tried emacs for the first time. I think it's good to record what I found so far.
+
+* Editing: although Emacs has different shortcuts than Vim out of box, almost every shortcuts or features in Vim can be simulated in Emacs. But the vice versa is not true. 
+* Interface: they are very similar. Vim (Neovim) can be run perfectly in terminal which supports True color. While emacs is better to run in GUI mode. Emacs' interface is better than Vim's overall.
+
+* Customization: Emacs uses Lisp as the plugin language, which is better than VimL, but you can integrate Python in VimL as a mitigation.
+
+* Performance: Vim is quicker at startup and openning buffers, but it renders a buffer everytime you open it. So Emacs is quicker when it comes to switching buffers.
