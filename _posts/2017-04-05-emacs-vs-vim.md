@@ -18,4 +18,4 @@ It's been about two months since I tried emacs for the first time. I think it's 
 
 * Customization: Emacs uses Lisp as the plugin language, which is better than VimL, but you can integrate Python in VimL as a mitigation.
 
-* Performance: Vim is quicker at startup and opening buffers, but it renders a buffer everytime you open it. So Emacs is quicker when it comes to switching buffers.
+* Switching buffer: Vim is quicker at startup and opening buffers, but it re-renders the buffer everytime by default. The situation could be way much better by :set hid. While emacs is about 1 or 2 times slower than vim when it comes to rendering buffers.
