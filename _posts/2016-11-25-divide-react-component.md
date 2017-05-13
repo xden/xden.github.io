@@ -11,6 +11,7 @@ In this article, an example is given to show how to divide a React component. It
 ### Example component in class.
 
 ```javascript
+{% raw %}
 import React from 'react';
 import Paper from 'material-ui/Paper';
 
@@ -79,11 +80,13 @@ export default class Element extends React.Component {
     );
   }
 }
+{% endraw %}
 ```
 
 ### Example component composed by functions.
 
 ```javascript
+{% raw %}
 import React from 'react';
 import Paper from 'material-ui/Paper';
 import fp from 'lodash/fp';
@@ -163,6 +166,7 @@ export default enhance(({
     {children}
   </Paper>
 ));
+{% endraw %}
 ```
 
 ### Comparison
